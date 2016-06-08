@@ -48,6 +48,8 @@
         <activity android:name=".HomePage.Act_Add_DicussSecond_Step"></activity>
         <!-- 问题详情-->
         <activity android:name=".Question.Act_Question_Detail"></activity>
+        <!-- 办税须知-->
+        <activity android:name=".Find.Act_Know"></activity>
     </application>
 
 </manifest>

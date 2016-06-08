@@ -46,12 +46,38 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/lv_should_know"
+            style="@style/clickable_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
             android:background="@color/white"
             android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="办税须知"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/clickable_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="0.33"
+            android:background="@color/white"
+            android:gravity="center"
+            android:onClick="onClick"
             android:orientation="vertical">
 
             <ImageView
@@ -67,32 +93,14 @@
         </LinearLayout>
 
         <LinearLayout
+            style="@style/clickable_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
             android:background="@color/white"
             android:gravity="center"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_launcher"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Small Text"
-                android:textAppearance="?android:attr/textAppearanceSmall"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.33"
-            android:background="@color/white"
-            android:gravity="center"
+            android:onClick="onClick"
             android:orientation="vertical">
 
             <ImageView
@@ -113,16 +121,19 @@
         android:layout_height="100dp"
         android:layout_below="@+id/relativeLayout"
         android:layout_centerHorizontal="true"
+        android:layout_marginEnd="1dp"
         android:layout_marginTop="1dp"
         android:orientation="horizontal">
 
         <LinearLayout
+            style="@style/clickable_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
             android:background="@color/white"
             android:gravity="center"
+            android:onClick="onClick"
             android:orientation="vertical">
 
             <ImageView
@@ -138,12 +149,14 @@
         </LinearLayout>
 
         <LinearLayout
+            style="@style/clickable_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
             android:background="@color/white"
             android:gravity="center"
+            android:onClick="onClick"
             android:orientation="vertical">
 
             <ImageView
@@ -159,11 +172,14 @@
         </LinearLayout>
 
         <LinearLayout
+            style="@style/clickable_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
             android:background="@color/white"
             android:gravity="center"
+            android:onClick="onClick"
             android:orientation="vertical">
 
             <ImageView
@@ -178,21 +194,25 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"/>
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_below="@+id/relativeLayout"
         android:layout_centerHorizontal="true"
+        android:layout_marginEnd="1dp"
         android:layout_marginTop="1dp"
         android:orientation="horizontal">
 
         <LinearLayout
+            style="@style/clickable_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
             android:background="@color/white"
             android:gravity="center"
+            android:onClick="onClick"
             android:orientation="vertical">
 
             <ImageView
@@ -213,9 +233,9 @@
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
             android:background="@color/white"
-            android:visibility="invisible"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="invisible">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -235,8 +255,8 @@
             android:layout_weight="0.33"
             android:background="@color/white"
             android:gravity="center"
-            android:visibility="invisible"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="invisible">
 
             <ImageView
                 android:layout_width="wrap_content"
