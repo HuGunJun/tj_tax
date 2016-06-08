@@ -1,0 +1,28 @@
+<resources>
+
+
+    <string name="app_name">tj_tax</string>
+
+
+    <!-- 主界面底部菜单-->
+    <string name="bottom_menu_home">首页</string>
+    <string name="bottom_menu_question">问题库</string>
+    <string name="bottom_menu_find">发现</string>
+    <string name="bottom_menu_mine">我</string>
+
+    <!-- 发现模块中文字-->
+    <string name="news">资讯</string>
+    <string name="must_know">办税须知</string>
+
+
+    <!-- 首页文字内容-->
+    <string name="clletion_talk">收藏话题</string>
+    <string name="add_answer">添加回答</string>
+    <string name="brown">发布</string>
+    <string name="please_input_answer">请输入回答内容</string>
+    <string name="please_input_content">请输入话题内容</string>
+    <string name="add_discuss">新增讨论</string>
+    <string name="next_step">下一步</string>
+    <string name="industry">行业</string>
+    <string name="tax_type">税种</string>
+</resources>

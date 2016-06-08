@@ -1,0 +1,954 @@
+[
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_timestampe_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_timestampe_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ok_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ok_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_search_clear.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_search_clear.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_bottom_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\actionsheet_bottom_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\shadow.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\video_format_switcher_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\video_format_switcher_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_type_select_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_chat_takepic_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\biz_video_progressbar.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\biz_video_progressbar.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_background.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\dialog_background.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\switcher_item_text_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\switcher_item_text_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_hint_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_search_clear.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_search_clear.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_takepic_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_background.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\dialog_background.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_sidebar_background_pressed.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_sidebar_background_pressed.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem_grey.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem_grey.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_sidebar_background_pressed.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_sidebar_background_pressed.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_search_clear.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_search_clear.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_single_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\actionsheet_single_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\voice_play_bottom_bg_nor.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\voice_play_bottom_bg_nor.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\alertdialog_left_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\alertdialog_left_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_location_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_location_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem_grey.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem_grey.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_timestampe_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_timestampe_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\alertdialog_single_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\alertdialog_single_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\voice_play_bottom_bg_nor.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\voice_play_bottom_bg_nor.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_search_clear.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_search_clear.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_chat_takepic_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_top_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\actionsheet_top_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\segment_center_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\segment_center_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_location_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_bottom_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\actionsheet_bottom_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_bj.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_edit_text_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_hint_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\bg_svprogresshuddefault.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\bg_svprogresshuddefault.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_timestampe_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_timestampe_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_middle_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\actionsheet_middle_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\check_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\check_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\switcher_item_text_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\switcher_item_text_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_top_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\actionsheet_top_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_middle_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\actionsheet_middle_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\alertdialog_right_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\alertdialog_right_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\alertdialog_left_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\alertdialog_left_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatto_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_common_tab_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\bg_overlay_gradient.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\bg_overlay_gradient.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatto_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_bj.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem_grey.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem_grey.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\bg_svprogresshuddefault.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\bg_svprogresshuddefault.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_bj.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\check_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\check_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\alertdialog_right_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\alertdialog_right_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\bg_overlay_gradient.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\bg_overlay_gradient.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_image_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_top_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\actionsheet_top_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\alertdialog_left_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\alertdialog_left_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatto_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\segment_right_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\segment_right_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_image_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\shadow.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\alertdialog_right_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\alertdialog_right_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\biz_video_progressbar.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\biz_video_progressbar.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatto_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\bg_svprogresshuddefault.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\bg_svprogresshuddefault.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_single_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\actionsheet_single_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\uncheck_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\uncheck_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\segment_left_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\segment_left_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_image_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_type_select_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ok_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ok_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_middle_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\actionsheet_middle_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\alertdialog_single_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\alertdialog_single_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_takepic_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\segment_right_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\segment_right_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_hint_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_edit_text_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_mm_listitem_grey.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_mm_listitem_grey.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_timestampe_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_timestampe_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_edit_text_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_type_select_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_hint_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_bottom_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\actionsheet_bottom_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\segment_right_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\segment_right_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\segment_center_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\segment_center_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\actionsheet_single_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\actionsheet_single_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_common_tab_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\segment_left_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\segment_left_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatfrom_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_common_tab_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\video_format_switcher_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\video_format_switcher_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatfrom_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_bj.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\shadow.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_sidebar_background_pressed.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_sidebar_background_pressed.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatfrom_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_type_select_btn.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_sidebar_background_pressed.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_sidebar_background_pressed.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_image_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\alertdialog_single_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\alertdialog_single_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\EaseUi\\easeUI\\src\\main\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chat_location_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\segment_left_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\segment_left_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\segment_center_selector.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\segment_center_selector.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_common_tab_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\uncheck_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\uncheck_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\bg_overlay_gradient.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\drawable\\bg_overlay_gradient.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_edit_text_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\ease_chatfrom_bg.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_background.xml",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\drawable\\dialog_background.xml"
+    }
+]

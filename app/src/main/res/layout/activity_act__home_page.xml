@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/ease_search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></include>
+
+    <!--<ListView-->
+    <!--android:id="@+id/lv_homepage"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/include"/>-->
+
+
+    <com.easemob.easeui.widget.xlistview.XListView
+        android:id="@+id/lv_homepage"
+        android:layout_width="match_parent"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include"></com.easemob.easeui.widget.xlistview.XListView>
+
+
+</RelativeLayout>

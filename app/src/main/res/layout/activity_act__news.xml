@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.easemob.easeui.widget.dropdownmenu.DropDownMenu
+        android:id="@+id/dropDownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:dddividerColor="@color/gray"
+        app:ddmaskColor="@color/mask_color"
+        app:ddmenuBackgroundColor="@color/white"
+        app:ddmenuSelectedIcon="@drawable/drop_down_selected_icon"
+        app:ddmenuTextSize="13sp"
+        app:ddmenuUnselectedIcon="@drawable/drop_down_unselected_icon"
+        app:ddtextSelectedColor="@color/drop_down_selected"
+        app:ddtextUnselectedColor="@color/drop_down_unselected"
+        app:ddunderlineColor="@color/gray"
+        />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/ease_search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dropDownMenu"></include>
+
+    <com.easemob.easeui.widget.xlistview.XListView
+        android:id="@+id/lv_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

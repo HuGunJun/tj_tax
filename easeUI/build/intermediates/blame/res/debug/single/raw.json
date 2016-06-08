@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\Demo\\easeUI\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\tj_tax\\easeUI\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "E:\\WorkSpace\\WorkSpace for AndroidStudio\\Demo\\easeUI\\src\\main\\res\\raw\\beep.ogg"
+    }
+]

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/act_color"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.easemob.easeui.widget.EaseTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.easemob.easeui.widget.EaseTitleBar>
+
+    <LinearLayout
+        android:id="@+id/lv_question_describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_question_describe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="国税是指国家上缴的税 ！地税这两个税有什么联系和区别？具体税种分开征收的依据是什么？"/>
+    </LinearLayout>
+
+    <com.easemob.easeui.widget.xlistview.XListView
+        android:id="@+id/lv_discuss_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dip"></com.easemob.easeui.widget.xlistview.XListView>
+</LinearLayout>
