@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- switchview样式-->
+    <declare-styleable name="SegmentView">
+        <attr name="content" format="string"/>
+        <attr name="index" format="integer"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColorN" format="color"/>
+        <attr name="textColorP" format="color"/>
+        <attr name="leftBg" format="reference"/>
+        <attr name="centerBg" format="reference"/>
+        <attr name="rightBg" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="borderWidth_swich_button" format="dimension"></attr>
+        <attr name="offBorderColor" format="reference|color"></attr>
+        <attr name="offColor" format="reference|color"></attr>
+        <attr name="onColor" format="reference|color"></attr>
+        <attr name="spotColor" format="reference|color"></attr>
+        <attr name="animate" format="reference|boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="CheckedRelativeLayout">
+        <attr name="checked" format="boolean"/>
+        <attr name="checkmode">
+            <enum name="radio" value="0"/>
+            <enum name="check" value="1"/>
+        </attr>
+    </declare-styleable>
+    <!-- 聊天记录列表样式-->
+    <declare-styleable name="EaseChatMessageList">
+        <attr name="msgListMyBubbleBackground" format="reference"/>
+        <attr name="msgListOtherBubbleBackground" format="reference"/>
+        <attr name="msgListShowUserAvatar" format="boolean"/>
+        <attr name="msgListShowUserNick" format="boolean"/>
+    </declare-styleable>
+    <!-- 聊天对话历史列表样式-->
+    <declare-styleable name="EaseConversationList">
+        <attr name="cvsListPrimaryTextColor" format="color"/>
+        <attr name="cvsListSecondaryTextColor" format="color"/>
+        <attr name="cvsListTimeTextColor" format="color"/>
+        <attr name="cvsListPrimaryTextSize" format="dimension"/>
+        <attr name="cvsListSecondaryTextSize" format="dimension"/>
+        <attr name="cvsListTimeTextSize" format="dimension"/>
+    </declare-styleable>
+    <!-- 联系人列表样式-->
+    <declare-styleable name="EaseContactList">
+        <attr name="ctsListPrimaryTextColor" format="color"/>
+        <attr name="ctsListPrimaryTextSize" format="dimension"/>
+        <attr name="ctsListShowSiderBar" format="boolean"/>
+        <attr name="ctsListInitialLetterBg" format="reference|color"/>
+        <attr name="ctsListInitialLetterColor" format="color"/>
+    </declare-styleable>
+    <!-- 表情菜单-->
+    <declare-styleable name="EaseEmojiconMenu">
+        <attr name="bigEmojiconRows" format="integer"/>
+        <attr name="emojiconColumns" format="integer"/>
+    </declare-styleable>
+    <!-- 聊天扩展菜单-->
+    <declare-styleable name="EaseChatExtendMenu">
+        <attr name="numColumns" format="integer"/>
+    </declare-styleable>
+    <!-- 标题栏-->
+    <declare-styleable name="EaseTitleBar">
+        <attr name="titleBarTitle" format="string"/>
+        <attr name="titleBarLeftImage" format="reference"/>
+        <attr name="titleBarRightImage" format="reference"/>
+        <attr name="titleBarBackground" format="reference|color"/>
+    </declare-styleable>
+    <!-- 开关按钮-->
+    <declare-styleable name="EaseSwitchButton">
+        <attr name="switchOpenImage" format="reference"/>
+        <attr name="switchCloseImage" format="reference"/>
+        <attr name="switchStatus">
+            <enum name="open" value="0"/>
+            <enum name="close" value="1"/>
+        </attr>
+    </declare-styleable>
+    <!-- Loading动画 -->
+    <declare-styleable name="LoadingView">
+        <attr name="loadingText" format="string"/>
+        <attr name="loadingTextAppearance" format="reference"/>
+    </declare-styleable>
+    <!-- Loading圆形小球 -->
+    <declare-styleable name="monindicator">
+        <attr name="circleRadius" format="dimension"/>
+        <attr name="circleSpacing" format="dimension"/>
+        <attr name="cycle" format="integer"/>
+    </declare-styleable>
+
+    <!-- progress样式-->
+    <declare-styleable name="SVCircleProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <!-- NumberProgressBar进度条 -->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="progress_text_offset" format="dimension"/>
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference"/>
+    </declare-styleable>
+
+    <!-- 弹幕样式-->
+    <declare-styleable name="DanmakuView">
+        <attr name="max_row" format="integer"/>
+        <attr name="pick_interval" format="integer"/>
+        <attr name="max_running_per_row" format="integer"/>
+        <attr name="show_debug" format="boolean"/>
+        <attr name="start_Y_offset" format="float"/>
+        <attr name="end_Y_offset" format="float"/>
+    </declare-styleable>
+
+    <!-- 播放gif -->
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference"/>
+        <attr name="paused" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference"/>
+    </declare-styleable>
+
+    <!-- 下拉选择菜单-->
+    <declare-styleable name="DropDownMenu">
+        <attr name="ddunderlineColor" format="color"/>
+        <attr name="dddividerColor" format="color"/>
+        <attr name="ddtextSelectedColor" format="color"/>
+        <attr name="ddtextUnselectedColor" format="color"/>
+        <attr name="ddmenuBackgroundColor" format="color"/>
+        <attr name="ddmaskColor" format="color"/>
+        <attr name="ddmenuTextSize" format="dimension"/>
+        <attr name="ddmenuSelectedIcon" format="reference"/>
+        <attr name="ddmenuUnselectedIcon" format="reference"/>
+    </declare-styleable>
+</resources>

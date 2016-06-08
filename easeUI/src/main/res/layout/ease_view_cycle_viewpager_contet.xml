@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_viewager_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <com.easemob.easeui.widget.cycleview.BaseViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.easemob.easeui.widget.cycleview.BaseViewPager>
+
+        <LinearLayout
+            android:id="@+id/layout_viewpager_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/layout_viewpager_indicator"
+            android:layout_alignLeft="@+id/layout_viewpager_indicator"
+            android:layout_alignTop="@+id/layout_viewpager_indicator"
+            android:layout_marginLeft="5dp"
+            android:text="TextView"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</FrameLayout>
