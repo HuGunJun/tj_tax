@@ -48,7 +48,7 @@
         <LinearLayout
             android:id="@+id/lv_should_know"
             style="@style/clickable_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
@@ -71,7 +71,7 @@
 
         <LinearLayout
             style="@style/clickable_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
@@ -88,13 +88,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Small Text"
+                android:text="国税客户端"
                 android:textAppearance="?android:attr/textAppearanceSmall"/>
         </LinearLayout>
 
         <LinearLayout
             style="@style/clickable_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
@@ -111,7 +111,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Small Text"
+                android:text="地税客户端"
                 android:textAppearance="?android:attr/textAppearanceSmall"/>
         </LinearLayout>
     </LinearLayout>
@@ -121,13 +121,12 @@
         android:layout_height="100dp"
         android:layout_below="@+id/relativeLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="1dp"
         android:layout_marginTop="1dp"
         android:orientation="horizontal">
 
         <LinearLayout
             style="@style/clickable_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
@@ -144,13 +143,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Small Text"
+                android:text="其他税务"
                 android:textAppearance="?android:attr/textAppearanceSmall"/>
         </LinearLayout>
 
         <LinearLayout
             style="@style/clickable_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
@@ -167,13 +166,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Small Text"
+                android:text="税率表"
                 android:textAppearance="?android:attr/textAppearanceSmall"/>
         </LinearLayout>
 
         <LinearLayout
             style="@style/clickable_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
@@ -190,7 +189,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Small Text"
+                android:text="税务计算器"
                 android:textAppearance="?android:attr/textAppearanceSmall"/>
         </LinearLayout>
     </LinearLayout>
@@ -200,13 +199,12 @@
         android:layout_height="100dp"
         android:layout_below="@+id/relativeLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="1dp"
         android:layout_marginTop="1dp"
         android:orientation="horizontal">
 
         <LinearLayout
             style="@style/clickable_layout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
@@ -223,12 +221,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Small Text"
+                android:text="税务链接"
                 android:textAppearance="?android:attr/textAppearanceSmall"/>
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:layout_weight="0.33"
@@ -250,7 +248,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0.33"
             android:background="@color/white"

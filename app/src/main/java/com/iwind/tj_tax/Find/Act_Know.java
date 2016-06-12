@@ -47,6 +47,11 @@ public class Act_Know extends EaseBaseActivity {
 
     @Override
     public void setOnClickListener() {
-
+        title_bar.setLeftLayoutClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }
