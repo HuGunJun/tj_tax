@@ -28,6 +28,9 @@ public class ConstantString {
     public static final String QUESTION_TITLE = "question_title";
 
     //时间
-    public static final String TIME="time";
+    public static final String TIME = "time";
+
+    //昵称
+    public static final String NICK = "nick";
 
 }

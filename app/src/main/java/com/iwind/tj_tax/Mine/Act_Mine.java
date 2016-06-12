@@ -38,9 +38,10 @@ public class Act_Mine extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.rl_myinfo:
-                startActivity(new Intent(getApplicationContext(),Act_MyInfo.class));
+                startActivity(new Intent(getApplicationContext(), Act_MyInfo.class));
                 break;
             case R.id.rl_my_question:
+                startActivity(new Intent(getApplicationContext(), Act_MyQuestion.class));
                 break;
             case R.id.rl_my_answer:
                 break;

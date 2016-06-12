@@ -40,4 +40,9 @@
     <string name="personal_info">个人信息</string>
     <string name="change_avatar">修改头像</string>
     <string name="nick">昵称</string>
+    <string name="photos">相册</string>
+    <string name="take_photos">拍照</string>
+    <string name="please_input_nick">请输入昵称</string>
+    <string name="update_nick">修改昵称</string>
+    <string name="done">完成</string>
 </resources>

@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"></com.easemob.easeui.widget.EaseTitleBar>
 
     <RelativeLayout
+        android:id="@+id/rl_change_avatar"
         style="@style/clickable_layout"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -44,6 +45,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rl_change_nick"
         style="@style/clickable_layout"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -56,6 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
+            android:gravity="center"
             android:text="@string/nick"
             android:textAppearance="?android:attr/textAppearanceSmall"/>
 
@@ -67,7 +70,7 @@
             android:src="@drawable/ic_launcher"/>
 
         <TextView
-            android:id="@+id/ffff"
+            android:id="@+id/tv_nick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_toStartOf="@+id/iasdf"

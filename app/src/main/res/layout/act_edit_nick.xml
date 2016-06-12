@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bottom_menu_color"
+              android:clipToPadding="true"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <com.easemob.easeui.widget.EaseTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.easemob.easeui.widget.EaseTitleBar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/nick"/>
+
+        <EditText
+            android:id="@+id/et_nick"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:hint="@string/please_input_nick"/>
+    </LinearLayout>
+</LinearLayout>
