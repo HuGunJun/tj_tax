@@ -42,6 +42,8 @@
         <activity android:name=".HomePage.Act_Answer_Detail"></activity>
         <!-- 添加回答-->
         <activity android:name=".HomePage.Act_Add_Answer"></activity>
+        <!-- 新增讨论标题-->
+        <activity android:name=".HomePage.Act_Add_Discuss_Title"></activity>
         <!-- 新增讨论-->
         <activity android:name=".HomePage.Act_Add_Discuss"></activity>
         <!-- 问题详情-->

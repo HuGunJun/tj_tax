@@ -14,6 +14,7 @@ import android.widget.TabHost;
 import com.easemob.easeui.widget.EaseTitleBar;
 import com.iwind.tj_tax.Find.Act_Find;
 import com.iwind.tj_tax.HomePage.Act_Add_Discuss;
+import com.iwind.tj_tax.HomePage.Act_Add_Discuss_Title;
 import com.iwind.tj_tax.HomePage.Act_HomePage;
 import com.iwind.tj_tax.Mine.Act_Mine;
 import com.iwind.tj_tax.Question.Act_Question;
@@ -56,7 +57,7 @@ public class MainActivity extends TabActivity {
         title_bar.setRightLayoutClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Act_Add_Discuss.class));
+                startActivity(new Intent(getApplicationContext(),Act_Add_Discuss_Title.class));
             }
         });
     }
