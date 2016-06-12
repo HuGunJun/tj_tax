@@ -88,6 +88,11 @@ public class EaseTitleBar extends RelativeLayout {
         rightImage.setImageResource(resId);
     }
 
+    public void setRightImageAndTextVisiable(boolean imagevisiable, boolean textvisiable) {
+        rightImage.setVisibility(imagevisiable ? View.VISIBLE : View.INVISIBLE);
+        tv_right.setVisibility(textvisiable ? View.VISIBLE : View.INVISIBLE);
+    }
+
     public void setLeftLayoutClickListener(OnClickListener listener) {
         leftLayout.setOnClickListener(listener);
     }
@@ -142,6 +147,16 @@ public class EaseTitleBar extends RelativeLayout {
     public void setSegmentViewIndexChangedListener(SegmentView.OnIndexChangedListener listener) {
         segmentView.setOnIndexChangedListener(listener);
     }
+
+
+    public int getRightImageVisiable() {
+        return rightImage.getVisibility();
+    }
+
+    public int getRightTextVisiable() {
+        return tv_right.getVisibility();
+    }
+
 
     public void setSegmentViewIndex(int index) {
         segmentView.setIndex(index);

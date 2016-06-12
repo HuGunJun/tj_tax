@@ -10,11 +10,11 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.RadioGroup;
 import android.widget.TabHost;
+import android.widget.Toast;
 
 import com.easemob.easeui.widget.EaseTitleBar;
 import com.iwind.tj_tax.Find.Act_Find;
 import com.iwind.tj_tax.HomePage.Act_Add_Discuss;
-import com.iwind.tj_tax.HomePage.Act_Add_Discuss_Title;
 import com.iwind.tj_tax.HomePage.Act_HomePage;
 import com.iwind.tj_tax.Mine.Act_Mine;
 import com.iwind.tj_tax.Question.Act_Question;
@@ -57,7 +57,13 @@ public class MainActivity extends TabActivity {
         title_bar.setRightLayoutClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Act_Add_Discuss_Title.class));
+                if (title_bar.getRightImageVisiable() == View.VISIBLE) {
+                    startActivity(new Intent(getApplicationContext(), Act_Add_Discuss.class));
+                }
+                if (title_bar.getRightTextVisiable() == View.VISIBLE) {
+                    Toast.makeText(getApplicationContext(), "消息", Toast.LENGTH_SHORT).show();
+//                    startActivity(new Intent(getApplicationContext(), Act_Add_Discuss.class));
+                }
             }
         });
     }
@@ -86,6 +92,7 @@ public class MainActivity extends TabActivity {
         title_bar.setTitle(getResources().getString(R.string.bottom_menu_home));
         title_bar.setBackgroundColor(getResources().getColor(R.color.titile_color));
         title_bar.setRightImageResource(R.mipmap.ic_launcher);
+        title_bar.setRightText(getResources().getString(R.string.message));
     }
 
     public void InitData() {
@@ -103,6 +110,7 @@ public class MainActivity extends TabActivity {
                         tabHost.setCurrentTabByTag("1");
                         title_bar.setTitle(getResources().getString(R.string.bottom_menu_home));
                         title_bar.setRightLayoutVisibility(View.VISIBLE);
+                        title_bar.setRightImageAndTextVisiable(true, false);
                         break;
                     case R.id.mainTabs_radio_news:
                         tabHost.setCurrentTabByTag("2");
@@ -117,7 +125,8 @@ public class MainActivity extends TabActivity {
                     case R.id.mainTabs_radio_mine:
                         tabHost.setCurrentTabByTag("4");
                         title_bar.setTitle(getResources().getString(R.string.bottom_menu_mine));
-                        title_bar.setRightLayoutVisibility(View.INVISIBLE);
+                        title_bar.setRightLayoutVisibility(View.VISIBLE);
+                        title_bar.setRightImageAndTextVisiable(false, true);
                         break;
                 }
             }
