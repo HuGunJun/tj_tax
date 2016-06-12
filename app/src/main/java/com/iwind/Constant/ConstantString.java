@@ -27,4 +27,7 @@ public class ConstantString {
     //问题标题
     public static final String QUESTION_TITLE = "question_title";
 
+    //时间
+    public static final String TIME="time";
+
 }

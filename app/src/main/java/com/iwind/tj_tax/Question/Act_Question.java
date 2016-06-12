@@ -16,7 +16,6 @@ import com.easemob.easeui.widget.xlistview.XListView;
 import com.iwind.Constant.ConstantString;
 import com.iwind.adapter.GirdDropDownAdapter;
 import com.iwind.adapter.QuestionAdapter;
-import com.iwind.tj_tax.HomePage.Act_Answer_Detail;
 import com.iwind.tj_tax.R;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;

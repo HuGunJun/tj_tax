@@ -1,9 +1,7 @@
 package com.iwind.tj_tax.HomePage;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -15,7 +13,6 @@ import com.easemob.easeui.widget.EaseTitleBar;
 import com.easemob.easeui.widget.xlistview.XListView;
 import com.iwind.Constant.ConstantString;
 import com.iwind.adapter.DiscussDetailAdapter;
-import com.iwind.adapter.HomePageAdapter;
 import com.iwind.tj_tax.R;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;

@@ -19,15 +19,17 @@ import java.util.List;
 
 /**
  * 作者：HuGuoJun
- * 2016/6/7 10:21
+ * 2016/6/12 11:35
  * 邮箱：www.guojunkuaile@qq.com
  */
-public class HomePageAdapter extends BaseAdapter {
+public class NewsAdapter extends BaseAdapter {
+
 
     private Context mContext;
     private List<HashMap<String, String>> mList;
 
-    public HomePageAdapter(Context mContext, List<HashMap<String, String>> mapList) {
+
+    public NewsAdapter(Context mContext, List<HashMap<String, String>> mapList) {
         this.mContext = mContext;
         this.mList = mapList;
     }
@@ -52,32 +54,28 @@ public class HomePageAdapter extends BaseAdapter {
         ViewHolder holder = null;
         if (convertView == null) {
             holder = new ViewHolder();
-            convertView = LayoutInflater.from(mContext).inflate(R.layout.item_homepage, null);
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.item_news, null);
             ViewUtils.inject(holder, convertView);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
         EaseUserUtils.setUserAvatar(mContext, mList.get(position).get(ConstantString.IV_URL), holder.iv_avator);
-
         holder.tv_content.setText(mList.get(position).get(ConstantString.CONTENT));
-        holder.tv_name.setText(mList.get(position).get(ConstantString.NAME));
         holder.tv_read_count.setText(mList.get(position).get(ConstantString.READ_COUNT));
-        holder.tv_type.setText(mList.get(position).get(ConstantString.TYPE));
+        holder.tv_time.setText(mList.get(position).get(ConstantString.TIME));
         return convertView;
     }
 
 
     private class ViewHolder {
-        @ViewInject(R.id.tv_name)
-        TextView tv_name;
         @ViewInject(R.id.iv_avator)
         ImageView iv_avator;
         @ViewInject(R.id.tv_content)
         TextView tv_content;
         @ViewInject(R.id.tv_read_count)
         TextView tv_read_count;
-        @ViewInject(R.id.tv_type)
-        TextView tv_type;
+        @ViewInject(R.id.tv_time)
+        TextView tv_time;
     }
 }

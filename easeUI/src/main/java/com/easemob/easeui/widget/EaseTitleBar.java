@@ -5,11 +5,13 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.easemob.easeui.R;
+import com.easemob.easeui.widget.switchview.SegmentView;
 
 /**
  * 标题栏
@@ -24,6 +26,7 @@ public class EaseTitleBar extends RelativeLayout {
     protected RelativeLayout titleLayout;
     protected RelativeLayout centerlayout;
     protected TextView tv_right;
+    protected SegmentView segmentView;
 
     public EaseTitleBar(Context context, AttributeSet attrs, int defStyle) {
         this(context, attrs);
@@ -49,6 +52,7 @@ public class EaseTitleBar extends RelativeLayout {
         titleLayout = (RelativeLayout) findViewById(R.id.root);
         centerlayout = (RelativeLayout) findViewById(R.id.center_layout);
         tv_right = (TextView) findViewById(R.id.tv_right);
+        segmentView = (SegmentView) findViewById(R.id.segmentView);
         parseStyle(context, attrs);
     }
 
@@ -102,6 +106,11 @@ public class EaseTitleBar extends RelativeLayout {
 
     public void setTitle(String title) {
         titleView.setText(title);
+        if (!title.equals("") || title != null) {
+            segmentView.setVisibility(View.GONE);
+        } else {
+            segmentView.setVisibility(View.VISIBLE);
+        }
     }
 
     public void setBackgroundColor(int color) {
@@ -127,5 +136,14 @@ public class EaseTitleBar extends RelativeLayout {
 
     public void setRightTextColor(int colorid) {
         tv_right.setTextColor(colorid);
+    }
+
+
+    public void setSegmentViewIndexChangedListener(SegmentView.OnIndexChangedListener listener) {
+        segmentView.setOnIndexChangedListener(listener);
+    }
+
+    public void setSegmentViewIndex(int index) {
+        segmentView.setIndex(index);
     }
 }

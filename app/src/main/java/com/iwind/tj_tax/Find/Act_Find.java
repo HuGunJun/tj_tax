@@ -42,6 +42,9 @@ public class Act_Find extends AppCompatActivity {
             case R.id.lv_should_know:
                 startActivity(new Intent(getApplicationContext(), Act_Know.class));
                 break;
+            case R.id.rl_news:
+                startActivity(new Intent(getApplicationContext(), Act_News.class));
+                break;
         }
     }
 }

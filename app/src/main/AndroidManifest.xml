@@ -52,6 +52,8 @@
         <activity android:name=".Find.Act_Know"></activity>
         <!-- 行业选择/税种选择-->
         <activity android:name=".HomePage.Act_Select_Choice"></activity>
+        <!-- 资讯页面-->
+        <activity android:name=".Find.Act_News"></activity>
     </application>
 
 </manifest>
