@@ -11,7 +11,6 @@
     <string name="bottom_menu_mine">我</string>
 
 
-
     <!-- 发现模块中文字-->
     <string name="news">资讯</string>
     <string name="must_know">办税须知</string>
@@ -33,4 +32,9 @@
 
     <!-- 我的模块中文字-->
     <string name="message">消息</string>
+    <string name="my_question">我的提问</string>
+    <string name="my_answer">我的回答</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="user_callback">用户反馈</string>
+    <string name="setting">设置</string>
 </resources>
