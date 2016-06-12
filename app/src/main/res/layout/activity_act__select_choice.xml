@@ -4,7 +4,6 @@
               android:layout_height="match_parent"
               android:clipToPadding="true"
               android:fitsSystemWindows="true"
-              android:background="@color/bottom_menu_color"
               android:orientation="vertical">
 
     <com.easemob.easeui.widget.EaseTitleBar
@@ -12,14 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></com.easemob.easeui.widget.EaseTitleBar>
 
-    <EditText
-        android:id="@+id/et_add_discuss"
+    <com.easemob.easeui.widget.xlistview.XListView
+        android:id="@+id/lv_choice"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:layout_margin="5dp"
-        android:background="@color/white"
-        android:gravity="top"
-        android:hint="@string/please_input_content"
-        android:padding="5dp"/>
-
+        android:layout_height="match_parent"></com.easemob.easeui.widget.xlistview.XListView>
 </LinearLayout>

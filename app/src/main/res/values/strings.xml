@@ -25,4 +25,6 @@
     <string name="next_step">下一步</string>
     <string name="industry">行业</string>
     <string name="tax_type">税种</string>
+    <string name="industry_choice">行业选择</string>
+    <string name="tax_type_choice">税种选择</string>
 </resources>

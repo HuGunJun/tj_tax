@@ -12,10 +12,12 @@
         android:layout_height="wrap_content"></com.easemob.easeui.widget.EaseTitleBar>
 
     <RelativeLayout
+        android:id="@+id/rl_industry"
         style="@style/clickable_layout"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:onClick="onClick">
 
 
         <TextView
@@ -49,11 +51,13 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rl_type"
         style="@style/clickable_layout"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_marginTop="1dp"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:onClick="onClick">
 
 
         <TextView
