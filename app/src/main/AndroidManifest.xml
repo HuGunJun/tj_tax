@@ -54,6 +54,8 @@
         <activity android:name=".HomePage.Act_Select_Choice"></activity>
         <!-- 资讯页面-->
         <activity android:name=".Find.Act_News"></activity>
+        <!-- 修改个人信息页面-->
+        <activity android:name=".Mine.Act_MyInfo"></activity>
     </application>
 
 </manifest>

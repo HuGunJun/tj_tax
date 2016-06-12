@@ -54,16 +54,17 @@ public class MainActivity extends TabActivity {
      * 设置点击事件
      */
     private void SetOnClickListener() {
-        title_bar.setRightLayoutClickListener(new View.OnClickListener() {
+        title_bar.setRightImageClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (title_bar.getRightImageVisiable() == View.VISIBLE) {
-                    startActivity(new Intent(getApplicationContext(), Act_Add_Discuss.class));
-                }
-                if (title_bar.getRightTextVisiable() == View.VISIBLE) {
-                    Toast.makeText(getApplicationContext(), "消息", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(), Act_Add_Discuss.class));
+            }
+        });
+        title_bar.setRightTextClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "消息", Toast.LENGTH_SHORT).show();
 //                    startActivity(new Intent(getApplicationContext(), Act_Add_Discuss.class));
-                }
             }
         });
     }
@@ -93,6 +94,7 @@ public class MainActivity extends TabActivity {
         title_bar.setBackgroundColor(getResources().getColor(R.color.titile_color));
         title_bar.setRightImageResource(R.mipmap.ic_launcher);
         title_bar.setRightText(getResources().getString(R.string.message));
+        title_bar.setRightImageAndTextVisiable(true, false);
     }
 
     public void InitData() {

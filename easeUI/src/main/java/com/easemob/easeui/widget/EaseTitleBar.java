@@ -61,7 +61,11 @@ public class EaseTitleBar extends RelativeLayout {
             TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.EaseTitleBar);
             String title = ta.getString(R.styleable.EaseTitleBar_titleBarTitle);
             titleView.setText(title);
-
+            if (title != null) {
+                segmentView.setVisibility(View.GONE);
+            } else {
+                segmentView.setVisibility(View.VISIBLE);
+            }
             Drawable leftDrawable = ta.getDrawable(R.styleable.EaseTitleBar_titleBarLeftImage);
             if (null != leftDrawable) {
                 leftImage.setImageDrawable(leftDrawable);
@@ -88,10 +92,10 @@ public class EaseTitleBar extends RelativeLayout {
         rightImage.setImageResource(resId);
     }
 
-    public void setRightImageAndTextVisiable(boolean imagevisiable, boolean textvisiable) {
-        rightImage.setVisibility(imagevisiable ? View.VISIBLE : View.INVISIBLE);
-        tv_right.setVisibility(textvisiable ? View.VISIBLE : View.INVISIBLE);
+    public void setRightImageClickListener(OnClickListener listener) {
+        rightImage.setOnClickListener(listener);
     }
+
 
     public void setLeftLayoutClickListener(OnClickListener listener) {
         leftLayout.setOnClickListener(listener);
@@ -143,18 +147,18 @@ public class EaseTitleBar extends RelativeLayout {
         tv_right.setTextColor(colorid);
     }
 
+    public void setRightTextClickListener(OnClickListener listener) {
+        tv_right.setOnClickListener(listener);
+    }
 
     public void setSegmentViewIndexChangedListener(SegmentView.OnIndexChangedListener listener) {
         segmentView.setOnIndexChangedListener(listener);
     }
 
+    public void setRightImageAndTextVisiable(boolean image_visiable, boolean text_visiable) {
+        rightImage.setVisibility(image_visiable ? View.VISIBLE : View.GONE);
+        tv_right.setVisibility(text_visiable ? View.VISIBLE : View.GONE);
 
-    public int getRightImageVisiable() {
-        return rightImage.getVisibility();
-    }
-
-    public int getRightTextVisiable() {
-        return tv_right.getVisibility();
     }
 
 
