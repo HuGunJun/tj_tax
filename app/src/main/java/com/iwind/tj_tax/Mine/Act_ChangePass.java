@@ -1,6 +1,5 @@
 package com.iwind.tj_tax.Mine;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -11,12 +10,12 @@ import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 
 /**
- * 设置页面
+ * 修改密码
  * 作者：HuGuoJun
- * 2016/6/13 09:38
+ * 2016/6/13 14:59
  * 邮箱：www.guojunkuaile@qq.com
  */
-public class Act_Setting extends EaseBaseActivity {
+public class Act_ChangePass extends EaseBaseActivity {
     @ViewInject(R.id.title_bar)
     EaseTitleBar title_bar;
 
@@ -24,7 +23,7 @@ public class Act_Setting extends EaseBaseActivity {
     @Override
     protected void onCreate(Bundle arg0) {
         super.onCreate(arg0);
-        setContentView(R.layout.act_setting);
+        setContentView(R.layout.act_change_pass);
         ViewUtils.inject(this);
         InitView();
         InitData();
@@ -33,17 +32,14 @@ public class Act_Setting extends EaseBaseActivity {
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.rl_change_pass:
-                startActivity(new Intent(context, Act_ChangePass.class));
-                break;
-        }
+
     }
 
     @Override
     public void InitView() {
-        title_bar.setTitle(getResources().getString(R.string.setting));
         title_bar.setLeftImageResource(R.drawable.ease_mm_title_back);
+        title_bar.setTitle(getResources().getString(R.string.change_pass));
+        title_bar.setRightText(getResources().getString(R.string.commit));
     }
 
     @Override
@@ -59,5 +55,22 @@ public class Act_Setting extends EaseBaseActivity {
                 finish();
             }
         });
+        title_bar.setRightTextClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Commit();
+            }
+        });
+    }
+
+    /**
+     * 修改密码
+     */
+    private void Commit() {
+
+        /**
+         * this area is for commit pass
+         */
+        finish();
     }
 }

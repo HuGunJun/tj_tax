@@ -70,6 +70,8 @@
         <activity android:name=".Mine.Act_Setting"></activity>
         <!-- 我的回答页面-->
         <activity android:name=".Mine.Act_MyAnswer"></activity>
+        <!-- 修改密码-->
+        <activity android:name=".Mine.Act_ChangePass"></activity>
     </application>
 
 </manifest>

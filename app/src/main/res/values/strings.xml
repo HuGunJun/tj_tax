@@ -51,4 +51,9 @@
     <string name="clear_cache">清除缓存</string>
     <string name="push_message">推送消息</string>
     <string name="about_us">关于我们</string>
+    <string name="old_pass">旧密码</string>
+    <string name="please_input_old_pass">请输入旧密码</string>
+    <string name="please_input_new_pass">请输入新密码</string>
+    <string name="comfirm_pass">确认密码</string>
+    <string name="please_input_again">请再次输入</string>
 </resources>
