@@ -64,6 +64,10 @@
         <activity android:name=".Mine.Act_MyCollection"></activity>
         <!-- 消息页面-->
         <activity android:name=".Mine.Act_Message"></activity>
+        <!-- 用户反馈-->
+        <activity android:name=".Mine.Act_UserCallBack"></activity>
+        <!-- 设置-->
+        <activity android:name=".Mine.Act_Setting"></activity>
     </application>
 
 </manifest>

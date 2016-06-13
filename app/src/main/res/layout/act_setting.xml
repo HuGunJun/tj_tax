@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bottom_menu_color"
+              android:clipToPadding="true"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <com.easemob.easeui.widget.EaseTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.easemob.easeui.widget.EaseTitleBar>
+
+    <RelativeLayout
+        android:id="@+id/rl_change_pass"
+        style="@style/clickable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/change_pass"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_launcher"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_clear_cache"
+        style="@style/clickable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/clear_cache"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_launcher"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_push_message"
+        style="@style/clickable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/push_message"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_launcher"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_about_us"
+        style="@style/clickable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/about_us"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_launcher"
+            />
+    </RelativeLayout>
+</LinearLayout>

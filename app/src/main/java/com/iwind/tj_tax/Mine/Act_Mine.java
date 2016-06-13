@@ -49,8 +49,10 @@ public class Act_Mine extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),Act_MyCollection.class));
                 break;
             case R.id.rl_user_callback:
+                startActivity(new Intent(getApplicationContext(),Act_UserCallBack.class));
                 break;
             case R.id.rl_setting:
+                startActivity(new Intent(getApplicationContext(),Act_Setting.class));
                 break;
         }
     }

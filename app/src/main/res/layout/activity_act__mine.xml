@@ -130,6 +130,7 @@
         style="@style/clickable_layout"
         android:layout_width="match_parent"
         android:layout_height="45dp"
+        android:onClick="onClick"
         android:layout_marginTop="10dp"
         android:gravity="center_vertical">
 
@@ -152,6 +153,7 @@
         android:id="@+id/rl_setting"
         style="@style/clickable_layout"
         android:layout_width="match_parent"
+        android:onClick="onClick"
         android:layout_height="45dp"
         android:layout_marginTop="1dp"
         android:gravity="center_vertical">

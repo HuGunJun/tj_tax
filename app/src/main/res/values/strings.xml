@@ -45,4 +45,10 @@
     <string name="please_input_nick">请输入昵称</string>
     <string name="update_nick">修改昵称</string>
     <string name="done">完成</string>
+    <string name="please_input_callBack_content">请输入反馈内容</string>
+    <string name="commit">提交</string>
+    <string name="change_pass">修改密码</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="push_message">推送消息</string>
+    <string name="about_us">关于我们</string>
 </resources>
