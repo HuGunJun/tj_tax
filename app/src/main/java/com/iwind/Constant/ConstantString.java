@@ -6,6 +6,16 @@ package com.iwind.Constant;
  * 邮箱：www.guojunkuaile@qq.com
  */
 public class ConstantString {
+
+    //用户信息
+    public static final String USER_INFO = "user_info";
+
+    //用户姓名
+    public static final String USER_NAME = "user_name";
+
+    //用户密码
+    public static final String PASSWORD = "passwrod";
+
     //数据图片key
     public static final String IV_URL = "iv";
 

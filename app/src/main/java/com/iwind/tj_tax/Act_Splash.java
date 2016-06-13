@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.easemob.easeui.ui.EaseBaseActivity;
+import com.iwind.App.MyApplication;
+
 /**
  * 作者：HuGuoJun
  * 2016/6/2 10:35
@@ -26,8 +28,13 @@ public class Act_Splash extends EaseBaseActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(context, MainActivity.class));
-                finish();
+                if (!MyApplication.GetUserName().equals("")) {
+                    startActivity(new Intent(context, MainActivity.class));
+                    finish();
+                } else {
+                    startActivity(new Intent(context, Act_Login.class));
+                    finish();
+                }
             }
         }, 3000);
     }

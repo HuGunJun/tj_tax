@@ -4,6 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
+        android:name="com.iwind.App.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -23,6 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <!-- 登录页面-->
+        <activity android:name=".Act_Login"></activity>
         <!-- 资讯 -->
         <activity android:name=".Question.Act_Question">
         </activity>
