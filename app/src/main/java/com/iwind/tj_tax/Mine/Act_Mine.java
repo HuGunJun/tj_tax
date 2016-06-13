@@ -44,6 +44,7 @@ public class Act_Mine extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), Act_MyQuestion.class));
                 break;
             case R.id.rl_my_answer:
+                startActivity(new Intent(getApplicationContext(),Act_MyAnswer.class));
                 break;
             case R.id.rl_my_collection:
                 startActivity(new Intent(getApplicationContext(),Act_MyCollection.class));

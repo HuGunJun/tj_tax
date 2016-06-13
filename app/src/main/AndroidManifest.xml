@@ -68,6 +68,8 @@
         <activity android:name=".Mine.Act_UserCallBack"></activity>
         <!-- 设置-->
         <activity android:name=".Mine.Act_Setting"></activity>
+        <!-- 我的回答页面-->
+        <activity android:name=".Mine.Act_MyAnswer"></activity>
     </application>
 
 </manifest>
