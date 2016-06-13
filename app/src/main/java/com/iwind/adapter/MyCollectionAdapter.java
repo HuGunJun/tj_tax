@@ -18,19 +18,19 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * 首页适配器
+ * 我的收藏适配器
  * 作者：HuGuoJun
- * 2016/6/7 10:21
+ * 2016/6/13 08:37
  * 邮箱：www.guojunkuaile@qq.com
  */
-public class HomePageAdapter extends BaseAdapter {
+public class MyCollectionAdapter extends BaseAdapter {
+    List<HashMap<String, String>> mList;
+    Context mContext;
 
-    private Context mContext;
-    private List<HashMap<String, String>> mList;
 
-    public HomePageAdapter(Context mContext, List<HashMap<String, String>> mapList) {
-        this.mContext = mContext;
-        this.mList = mapList;
+    public MyCollectionAdapter(Context context, List<HashMap<String, String>> list) {
+        this.mContext = context;
+        this.mList = list;
     }
 
     @Override
@@ -53,7 +53,7 @@ public class HomePageAdapter extends BaseAdapter {
         ViewHolder holder = null;
         if (convertView == null) {
             holder = new ViewHolder();
-            convertView = LayoutInflater.from(mContext).inflate(R.layout.item_homepage, null);
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.item_mycollection, null);
             ViewUtils.inject(holder, convertView);
             convertView.setTag(holder);
         } else {

@@ -46,6 +46,7 @@ public class Act_Mine extends AppCompatActivity {
             case R.id.rl_my_answer:
                 break;
             case R.id.rl_my_collection:
+                startActivity(new Intent(getApplicationContext(),Act_MyCollection.class));
                 break;
             case R.id.rl_user_callback:
                 break;

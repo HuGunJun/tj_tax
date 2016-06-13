@@ -33,4 +33,7 @@ public class ConstantString {
     //昵称
     public static final String NICK = "nick";
 
+    //标题
+    public static final String TITLE = "title";
+
 }

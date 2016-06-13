@@ -60,6 +60,10 @@
         <activity android:name=".Mine.Act_EditNick"></activity>
         <!-- 我的提问页面-->
         <activity android:name=".Mine.Act_MyQuestion"></activity>
+        <!-- 我的收藏页面-->
+        <activity android:name=".Mine.Act_MyCollection"></activity>
+        <!-- 消息页面-->
+        <activity android:name=".Mine.Act_Message"></activity>
     </application>
 
 </manifest>

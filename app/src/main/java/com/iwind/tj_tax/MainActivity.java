@@ -16,6 +16,7 @@ import com.easemob.easeui.widget.EaseTitleBar;
 import com.iwind.tj_tax.Find.Act_Find;
 import com.iwind.tj_tax.HomePage.Act_Add_Discuss;
 import com.iwind.tj_tax.HomePage.Act_HomePage;
+import com.iwind.tj_tax.Mine.Act_Message;
 import com.iwind.tj_tax.Mine.Act_Mine;
 import com.iwind.tj_tax.Question.Act_Question;
 import com.lidroid.xutils.ViewUtils;
@@ -63,8 +64,7 @@ public class MainActivity extends TabActivity {
         title_bar.setRightTextClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "消息", Toast.LENGTH_SHORT).show();
-//                    startActivity(new Intent(getApplicationContext(), Act_Add_Discuss.class));
+                startActivity(new Intent(getApplicationContext(), Act_Message.class));
             }
         });
     }
