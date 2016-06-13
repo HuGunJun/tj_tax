@@ -26,6 +26,8 @@
         </activity>
         <!-- 登录页面-->
         <activity android:name=".Act_Login"></activity>
+        <!-- 注册页面-->
+        <activity android:name=".Act_Register"></activity>
         <!-- 资讯 -->
         <activity android:name=".Question.Act_Question">
         </activity>
