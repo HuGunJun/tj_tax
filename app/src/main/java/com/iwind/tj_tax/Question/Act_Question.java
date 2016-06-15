@@ -1,16 +1,22 @@
 package com.iwind.tj_tax.Question;
 
+import android.animation.Animator;
+import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.TypedValue;
 import android.view.Gravity;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.easemob.easeui.utils.EaseAnimationUtils;
 import com.easemob.easeui.widget.dropdownmenu.DropDownMenu;
 import com.easemob.easeui.widget.xlistview.XListView;
 import com.iwind.Constant.ConstantString;
@@ -43,6 +49,10 @@ public class Act_Question extends AppCompatActivity {
     private ListView type_listview, industry_listview;
     private List<HashMap<String, String>> mList = new ArrayList<HashMap<String, String>>();
     private QuestionAdapter mNewsAdapter;
+    private float mFirstY;
+    private float mCurrentY;
+    @ViewInject(R.id.menu)
+    LinearLayout menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,7 +90,32 @@ public class Act_Question extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        lv_news.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        mFirstY = event.getY();
+                        break;
+                    case MotionEvent.ACTION_MOVE:
+                        mCurrentY = event.getY();
+                        if (mCurrentY - mFirstY > 0) {
+                            // 下滑 显示titleBar
+                            EaseAnimationUtils.showHideTitleBar(true, menu, lv_news);
+                        } else if (mFirstY - mCurrentY > 0) {
+                            // 上滑 隐藏titleBar
+                            EaseAnimationUtils.showHideTitleBar(false, menu, lv_news);
+                        }
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        break;
+                }
+                return false;
+            }
+        });
+
     }
+
 
     public void InitView() {
         type_listview = new ListView(this);
@@ -105,6 +140,8 @@ public class Act_Question extends AppCompatActivity {
 
         lv_news.setPullLoadEnable(true);
         lv_news.setPullRefreshEnable(true);
+
+
     }
 
     public void InitData() {

@@ -3,9 +3,11 @@ package com.iwind.tj_tax.HomePage;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 
+import com.easemob.easeui.utils.EaseAnimationUtils;
 import com.easemob.easeui.widget.xlistview.XListView;
 import com.iwind.Constant.ConstantString;
 import com.iwind.adapter.HomePageAdapter;
@@ -27,10 +29,12 @@ public class Act_HomePage extends AppCompatActivity {
 
     @ViewInject(R.id.lv_homepage)
     XListView lv_homepage;
-
+    private float mFirstY;
+    private float mCurrentY;
     private List<HashMap<String, String>> mList = new ArrayList<HashMap<String, String>>();
     private HomePageAdapter mHomePageAdapter;
-
+    @ViewInject(R.id.include)
+    View include;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +66,29 @@ public class Act_HomePage extends AppCompatActivity {
                 Intent intent = new Intent(Act_HomePage.this, Act_Discuss_Detail.class);
                 intent.putExtra(ConstantString.DISSCUSS_TITLE, "这是什么特么的标题擦擦擦啊擦擦啊擦");
                 startActivity(intent);
+            }
+        });
+        lv_homepage.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        mFirstY = event.getY();
+                        break;
+                    case MotionEvent.ACTION_MOVE:
+                        mCurrentY = event.getY();
+                        if (mCurrentY - mFirstY > 0) {
+                            // 下滑 显示titleBar
+                            EaseAnimationUtils.showHideTitleBar(true, include, lv_homepage);
+                        } else if (mFirstY - mCurrentY > 0) {
+                            // 上滑 隐藏titleBar
+                            EaseAnimationUtils.showHideTitleBar(false, include, lv_homepage);
+                        }
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        break;
+                }
+                return false;
             }
         });
     }
