@@ -34,6 +34,7 @@ public class MainActivity extends TabActivity {
     private RadioGroup radioderGroup;
     @ViewInject(R.id.title_bar)
     EaseTitleBar title_bar;
+    public static MainActivity instance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +50,7 @@ public class MainActivity extends TabActivity {
         InitView();
         InitData();
         SetOnClickListener();
+        instance = this;
     }
 
     /**

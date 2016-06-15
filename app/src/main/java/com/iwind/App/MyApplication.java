@@ -52,4 +52,10 @@ public class MyApplication extends Application {
         edit.commit();
     }
 
+    public static void clearUserInfo() {
+        SharedPreferences.Editor edit = preferences.edit();
+        edit.clear();
+        edit.commit();
+    }
+
 }

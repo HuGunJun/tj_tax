@@ -6,6 +6,8 @@ import android.view.View;
 
 import com.easemob.easeui.ui.EaseBaseActivity;
 import com.easemob.easeui.widget.EaseTitleBar;
+import com.iwind.App.MyApplication;
+import com.iwind.tj_tax.MainActivity;
 import com.iwind.tj_tax.R;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
@@ -36,6 +38,11 @@ public class Act_Setting extends EaseBaseActivity {
         switch (view.getId()) {
             case R.id.rl_change_pass:
                 startActivity(new Intent(context, Act_ChangePass.class));
+                break;
+            case R.id.btn_quite:
+                MyApplication.clearUserInfo();
+                MainActivity.instance.finish();
+                finish();
                 break;
         }
     }

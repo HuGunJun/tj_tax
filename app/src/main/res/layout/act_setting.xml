@@ -114,4 +114,16 @@
             android:src="@drawable/ic_launcher"
             />
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_quite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_quite_selector"
+        android:text="@string/exit_group"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
 </LinearLayout>
