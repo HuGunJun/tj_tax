@@ -67,6 +67,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
     </ScrollView>
 
     <LinearLayout
+        android:id="@+id/bottom_tool"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_alignParentBottom="true"

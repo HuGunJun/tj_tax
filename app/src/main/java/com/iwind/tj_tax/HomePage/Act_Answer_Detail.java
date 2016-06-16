@@ -54,8 +54,6 @@ public class Act_Answer_Detail extends EaseBaseActivity {
     private float lastY;
     //记录手指是否向上滑动
     private boolean isUpSlide;
-    //工具栏是否是隐藏状态
-    private boolean isToolHide;
     //上部布局是否是隐藏状态
     private boolean isTopHide = false;
     //是否已经完成测量
@@ -125,8 +123,8 @@ public class Act_Answer_Detail extends EaseBaseActivity {
         mScroller.setBottomListener(new MyScrollView.BottomListener() {
             @Override
             public void onBottom() {
-                if (isToolHide) {
-                    showTool();
+                if (EaseAnimationUtils.isToolHide()) {
+                    EaseAnimationUtils.showTool(getWindow().getDecorView().getHeight(), bottom_tool, Act_Answer_Detail.this);
                 }
             }
         });
@@ -166,11 +164,11 @@ public class Act_Answer_Detail extends EaseBaseActivity {
                             isUpSlide = disY < 0;
                             //实现底部tools的显示与隐藏
                             if (isUpSlide) {
-                                if (!isToolHide)
-                                    hideTool();
+                                if (!EaseAnimationUtils.isToolHide())
+                                    EaseAnimationUtils.hideTool(getWindow().getDecorView().getHeight(), bottom_tool, Act_Answer_Detail.this);
                             } else {
-                                if (isToolHide)
-                                    showTool();
+                                if (EaseAnimationUtils.isToolHide())
+                                    EaseAnimationUtils.showTool(getWindow().getDecorView().getHeight(), bottom_tool, Act_Answer_Detail.this);
                             }
                         }
 
@@ -187,32 +185,6 @@ public class Act_Answer_Detail extends EaseBaseActivity {
         });
     }
 
-    /**
-     * 显示工具栏
-     */
-    private void showTool() {
-        int startY = getWindow().getDecorView()
-                .getHeight() - EaseAnimationUtils.getStatusHeight(this);
-        ObjectAnimator anim = ObjectAnimator.ofFloat(bottom_tool, "y", startY,
-                startY - bottom_tool.getHeight());
-        anim.setDuration(TIME_ANIMATION);
-        anim.start();
-        isToolHide = false;
-
-    }
-
-    /**
-     * 隐藏工具栏
-     */
-    private void hideTool() {
-        int startY = getWindow().getDecorView()
-                .getHeight() - EaseAnimationUtils.getStatusHeight(this);
-        ObjectAnimator anim = ObjectAnimator.ofFloat(bottom_tool, "y", startY - bottom_tool.getHeight(),
-                startY);
-        anim.setDuration(TIME_ANIMATION);
-        anim.start();
-        isToolHide = true;
-    }
 
     /**
      * 显示上部的布局
@@ -269,18 +241,18 @@ public class Act_Answer_Detail extends EaseBaseActivity {
         public boolean onSingleTapConfirmed(MotionEvent e) {
 
             //如果都是隐藏状态，那么都显示出来
-            if (isTopHide && isToolHide) {
+            if (isTopHide && EaseAnimationUtils.isToolHide()) {
                 showTop();
-                showTool();
-            } else if (!isToolHide && isTopHide) {
+                EaseAnimationUtils.showTool(getWindow().getDecorView().getHeight(), bottom_tool, Act_Answer_Detail.this);
+            } else if (!EaseAnimationUtils.isToolHide() && isTopHide) {
                 //如果上面隐藏，下面显示，就显示上面
                 showTop();
-            } else if (!isTopHide && isToolHide) {
+            } else if (!isTopHide && EaseAnimationUtils.isToolHide()) {
                 //如果上面显示，下面隐藏，那么就显示下面
-                showTool();
+                EaseAnimationUtils.showTool(getWindow().getDecorView().getHeight(), bottom_tool, Act_Answer_Detail.this);
             } else {
                 //都在显示，那么就都隐藏
-                hideTool();
+                EaseAnimationUtils.hideTool(getWindow().getDecorView().getHeight(), bottom_tool, Act_Answer_Detail.this);
                 if (!isInTopDistance) {
                     hideTop();
                 }
