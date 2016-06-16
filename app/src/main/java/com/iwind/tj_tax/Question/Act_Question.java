@@ -101,10 +101,10 @@ public class Act_Question extends AppCompatActivity {
                         mCurrentY = event.getY();
                         if (mCurrentY - mFirstY > 0) {
                             // 下滑 显示titleBar
-                            EaseAnimationUtils.showHideTitleBar(true, menu, lv_news);
+//                            EaseAnimationUtils.showHideTitleBar(true, menu, lv_news);
                         } else if (mFirstY - mCurrentY > 0) {
                             // 上滑 隐藏titleBar
-                            EaseAnimationUtils.showHideTitleBar(false, menu, lv_news);
+//                            EaseAnimationUtils.showHideTitleBar(false, menu, lv_news);
                         }
                         break;
                     case MotionEvent.ACTION_UP:

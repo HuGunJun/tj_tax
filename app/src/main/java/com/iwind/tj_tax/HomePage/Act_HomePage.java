@@ -79,10 +79,10 @@ public class Act_HomePage extends AppCompatActivity {
                         mCurrentY = event.getY();
                         if (mCurrentY - mFirstY > 0) {
                             // 下滑 显示titleBar
-                            EaseAnimationUtils.showHideTitleBar(true, include, lv_homepage);
+//                            EaseAnimationUtils.showHideTitleBar(true, include, lv_homepage);
                         } else if (mFirstY - mCurrentY > 0) {
                             // 上滑 隐藏titleBar
-                            EaseAnimationUtils.showHideTitleBar(false, include, lv_homepage);
+//                            EaseAnimationUtils.showHideTitleBar(false, include, lv_homepage);
                         }
                         break;
                     case MotionEvent.ACTION_UP:

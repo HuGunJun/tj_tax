@@ -22,6 +22,7 @@ import com.easemob.easeui.ui.EaseBaseActivity;
 import com.easemob.easeui.utils.EaseAnimationUtils;
 import com.easemob.easeui.widget.EaseTitleBar;
 import com.easemob.util.DensityUtil;
+import com.iwind.Constant.ConstantString;
 import com.iwind.Widget.MyScrollView;
 import com.iwind.tj_tax.R;
 import com.lidroid.xutils.view.annotation.ViewInject;
@@ -46,12 +47,8 @@ public class Act_Answer_Detail extends EaseBaseActivity {
     private MyScrollView mScroller;
     @ViewInject(R.id.ll_top)
     private FrameLayout fl_top;
-    @ViewInject(R.id.tv_content)
-    private TextView tv_content;
-
 
     private GestureDetector mGestureDetector;
-
     private float viewSlop;
     //按下的y坐标
     private float lastY;
@@ -89,6 +86,10 @@ public class Act_Answer_Detail extends EaseBaseActivity {
 
     @Override
     public void InitView() {
+
+        title_bar.setTitle(getIntent().getExtras().getString(ConstantString.DISSCUSS_TITLE));
+        title_bar.setLeftImageResource(R.drawable.ease_mm_title_back);
+
         viewSlop = ViewConfiguration.get(this).getScaledTouchSlop();
         //获取Bar和Title的高度，完成auther布局的margenTop设置
         ViewTreeObserver viewTreeObserver = fl_top.getViewTreeObserver();
@@ -114,6 +115,12 @@ public class Act_Answer_Detail extends EaseBaseActivity {
 
     @Override
     public void setOnClickListener() {
+        title_bar.setLeftLayoutClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         mGestureDetector = new GestureDetector(this, new DetailGestureListener());
         mScroller.setBottomListener(new MyScrollView.BottomListener() {
             @Override
