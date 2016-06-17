@@ -44,6 +44,9 @@ public class Act_Setting extends EaseBaseActivity {
                 MainActivity.instance.finish();
                 finish();
                 break;
+            case R.id.rl_about_us:
+                startActivity(new Intent(context,Act_AboutUs.class));
+                break;
         }
     }
 
