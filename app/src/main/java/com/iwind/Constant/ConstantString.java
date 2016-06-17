@@ -11,10 +11,10 @@ public class ConstantString {
     public static final String USER_INFO = "user_info";
 
     //用户姓名
-    public static final String USER_NAME = "user_name";
+    public static final String USER_NAME = "loginId";
 
     //用户密码
-    public static final String PASSWORD = "passwrod";
+    public static final String PASSWORD = "password";
 
     //数据图片key
     public static final String IV_URL = "iv";

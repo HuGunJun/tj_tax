@@ -3,13 +3,22 @@ package com.iwind.tj_tax;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.easemob.easeui.ui.EaseBaseActivity;
 import com.iwind.App.MyApplication;
+import com.iwind.Constant.ConstantString;
+import com.iwind.Constant.ConstantUrl;
+import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.ViewUtils;
+import com.lidroid.xutils.exception.HttpException;
+import com.lidroid.xutils.http.RequestParams;
+import com.lidroid.xutils.http.ResponseInfo;
+import com.lidroid.xutils.http.callback.RequestCallBack;
+import com.lidroid.xutils.http.client.HttpRequest;
 import com.lidroid.xutils.view.annotation.ViewInject;
 
 import org.w3c.dom.Text;
@@ -43,7 +52,7 @@ public class Act_Login extends EaseBaseActivity {
                 Login();
                 break;
             case R.id.et_register:
-                startActivity(new Intent(context,Act_Register.class));
+                startActivity(new Intent(context, Act_Register.class));
                 break;
         }
     }
@@ -62,9 +71,28 @@ public class Act_Login extends EaseBaseActivity {
             Toast.makeText(context, getResources().getString(R.string.Password_cannot_be_empty), Toast.LENGTH_SHORT).show();
             return;
         }
-        MyApplication.SetUserNameAndPwd(username, pass);
-        startActivity(new Intent(context, MainActivity.class));
-        finish();
+
+        RequestParams params = new RequestParams();
+        params.addBodyParameter(ConstantString.USER_NAME, username);
+        params.addBodyParameter(ConstantString.PASSWORD, pass);
+        HttpUtils httpUtils = new HttpUtils();
+        httpUtils.send(HttpRequest.HttpMethod.POST, ConstantUrl.BASE_URL + ConstantUrl.LOGIN, params, new RequestCallBack<String>() {
+            @Override
+            public void onSuccess(ResponseInfo<String> responseInfo) {
+                Log.i("main", responseInfo.result);
+            }
+
+            @Override
+            public void onFailure(HttpException e, String s) {
+                Log.i("main", s);
+            }
+        });
+
+//        MyApplication.SetUserNameAndPwd(username, pass);
+//        startActivity(new Intent(context, MainActivity.class));
+//        finish();
+
+
     }
 
     @Override
