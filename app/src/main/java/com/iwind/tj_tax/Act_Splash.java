@@ -53,7 +53,7 @@ public class Act_Splash extends EaseBaseActivity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        if (!MyApplication.GetUserName().equals("")) {
+                        if (!MyApplication.getInstance().getUserName().equals("")) {
                             startActivity(new Intent(context, MainActivity.class));
                             finish();
                         } else {

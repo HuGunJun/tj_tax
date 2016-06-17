@@ -28,7 +28,7 @@ public class MyApplication extends Application {
      *
      * @return
      */
-    public MyApplication getInstance() {
+    public static MyApplication getInstance() {
         return instance;
     }
 
@@ -37,7 +37,7 @@ public class MyApplication extends Application {
      *
      * @return
      */
-    public static String GetUserName() {
+    public String getUserName() {
         return preferences.getString(ConstantString.USER_NAME, "");
     }
 
@@ -45,14 +45,59 @@ public class MyApplication extends Application {
      * @param username
      * @param Pwd
      */
-    public static void SetUserNameAndPwd(String username, String Pwd) {
+    public void setUserNameAndPwd(String username, String Pwd) {
         SharedPreferences.Editor edit = preferences.edit();
         edit.putString(ConstantString.USER_NAME, username);
         edit.putString(ConstantString.PASSWORD, Pwd);
         edit.commit();
     }
 
-    public static void clearUserInfo() {
+
+    /**
+     * 获取用户id
+     *
+     * @return
+     */
+    public String getUserid() {
+        return preferences.getString(ConstantString.USER_ID, "");
+    }
+
+    /**
+     * 保存用户id
+     *
+     * @param userIdString
+     */
+    public void setUserId(String userIdString) {
+        SharedPreferences.Editor edit = preferences.edit();
+        edit.putString(ConstantString.USER_ID, userIdString);
+        edit.commit();
+    }
+
+    /**
+     * 获取Token
+     *
+     * @return
+     */
+    public String getToken() {
+        return preferences.getString(ConstantString.TOKEN, "");
+    }
+
+    /**
+     * 保存用户Token
+     *
+     * @param tokenString
+     */
+    public void setToken(String tokenString) {
+        SharedPreferences.Editor edit = preferences.edit();
+        edit.putString(ConstantString.TOKEN, tokenString);
+        edit.commit();
+    }
+
+
+    /**
+     * 清除用户信息
+     */
+    public void clearUserInfo() {
         SharedPreferences.Editor edit = preferences.edit();
         edit.clear();
         edit.commit();

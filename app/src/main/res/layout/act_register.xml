@@ -36,8 +36,9 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
+                android:onClick="onClick"
                 android:gravity="center"
-                android:text="获取验证码"/>
+                android:text="@string/get_sms_code"/>
 
             <EditText
                 android:id="@+id/et_vificode"

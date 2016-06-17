@@ -40,7 +40,7 @@ public class Act_Setting extends EaseBaseActivity {
                 startActivity(new Intent(context, Act_ChangePass.class));
                 break;
             case R.id.btn_quite:
-                MyApplication.clearUserInfo();
+                MyApplication.getInstance().clearUserInfo();
                 MainActivity.instance.finish();
                 finish();
                 break;

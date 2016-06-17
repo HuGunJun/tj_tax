@@ -7,14 +7,29 @@ package com.iwind.Constant;
  */
 public class ConstantString {
 
+    //手机号
+    public static final String PHONE_NUM = "phone";
+
+    //验证码
+    public static final String SMSCODE = "smsCode";
+
+    //验证码作用类型  1.注册 2.修改手机号 3.绑定银行卡 4.找回密码
+    public static final String SMSYTPE = "smsType";
+
     //用户信息
     public static final String USER_INFO = "user_info";
+
+    //Token
+    public static final String TOKEN = "token";
 
     //用户姓名
     public static final String USER_NAME = "loginId";
 
     //用户密码
     public static final String PASSWORD = "password";
+
+    //userid
+    public static final String USER_ID="userid";
 
     //数据图片key
     public static final String IV_URL = "iv";
@@ -45,5 +60,15 @@ public class ConstantString {
 
     //标题
     public static final String TITLE = "title";
+
+    //接口返回标志 0000为成功 否则为失败
+    public static final String RESULT_STATE = "retCode";
+
+    //接口返回状态信息
+    public static final String RESULT_INFO="retInfo";
+
+    //接口返回标志 "0000"
+    public static final String STATE = "0000";
+
 
 }

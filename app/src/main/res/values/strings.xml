@@ -63,6 +63,11 @@
 
     <!-- 全局文字-->
     <string name="server_inner_error">服务器内部错误,请稍后重试。</string>
+    <string name="sms_code_send_success">验证码发送成功,稍后请查收</string>
+    <string name="data_format_error">数据格式异常</string>
+    <string name="register_successful">注册成功</string>
+    <string name="get_sms_code">获取短信验证码</string>
+    <string name="login_successful">登陆成功</string>
 
     <!-- 主界面底部菜单-->
     <string name="bottom_menu_home">首页</string>

@@ -12,6 +12,7 @@ import com.easemob.easeui.ui.EaseBaseActivity;
 import com.iwind.App.MyApplication;
 import com.iwind.Constant.ConstantString;
 import com.iwind.Constant.ConstantUrl;
+import com.iwind.Utils.TaxUtils;
 import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.exception.HttpException;
@@ -21,6 +22,8 @@ import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest;
 import com.lidroid.xutils.view.annotation.ViewInject;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.w3c.dom.Text;
 
 /**
@@ -79,9 +82,23 @@ public class Act_Login extends EaseBaseActivity {
         httpUtils.send(HttpRequest.HttpMethod.POST, ConstantUrl.BASE_URL + ConstantUrl.LOGIN, params, new RequestCallBack<String>() {
             @Override
             public void onSuccess(ResponseInfo<String> responseInfo) {
-                MyApplication.SetUserNameAndPwd(username, pass);
-                startActivity(new Intent(context, MainActivity.class));
-                finish();
+                Log.i("main", responseInfo.result);
+                try {
+                    JSONObject jsonObject = new JSONObject(responseInfo.result);
+                    if (TaxUtils.getInstance().resultStateText(responseInfo.result)) {
+                        MyApplication.getInstance().setUserNameAndPwd(username, pass);
+                        MyApplication.getInstance().setToken(jsonObject.getString(ConstantString.TOKEN));
+                        MyApplication.getInstance().setUserId(jsonObject.getString(ConstantString.USER_ID));
+                        Toast.makeText(context, getResources().getString(R.string.login_successful), Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(context, MainActivity.class));
+                        finish();
+                    } else {
+                        Log.i("main", "请求失败");
+                    }
+                } catch (JSONException e) {
+                    Toast.makeText(context, getResources().getString(R.string.data_format_error), Toast.LENGTH_SHORT).show();
+                    e.printStackTrace();
+                }
             }
 
             @Override
