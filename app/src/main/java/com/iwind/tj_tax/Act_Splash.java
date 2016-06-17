@@ -53,13 +53,13 @@ public class Act_Splash extends EaseBaseActivity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-//                        if (!MyApplication.GetUserName().equals("")) {
-//                            startActivity(new Intent(context, MainActivity.class));
-//                            finish();
-//                        } else {
+                        if (!MyApplication.GetUserName().equals("")) {
+                            startActivity(new Intent(context, MainActivity.class));
+                            finish();
+                        } else {
                             startActivity(new Intent(context, Act_Login.class));
                             finish();
-//                        }
+                        }
                     }
                 }, 3000);
             }

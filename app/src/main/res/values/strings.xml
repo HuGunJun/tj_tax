@@ -61,6 +61,9 @@
 \n
 </string>
 
+    <!-- 全局文字-->
+    <string name="server_inner_error">服务器内部错误,请稍后重试。</string>
+
     <!-- 主界面底部菜单-->
     <string name="bottom_menu_home">首页</string>
     <string name="bottom_menu_question">问题库</string>
